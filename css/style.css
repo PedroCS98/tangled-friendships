@@ -1,7 +1,19 @@
 body{
-    background-color: lightsalmon;
+    background-color: #FAF5FF;
+}
+
+.logo{
+    width: 300px;
+    border-radius: 150px;
 }
 
 nav ul{
     list-style-type: none;
 }
+
+/*
+Primary #6B21A8 (deep purple)
+Accent #F5C518 (golden yellow)
+Background #FAF5FF (soft lavender white)
+Text#1A0033 (near black purple)
+*/
