@@ -17,7 +17,8 @@ Build the static HTML/CSS structure of the website: header, navigation, main sec
 |---|---|
 | Header | Logo + navigation bar (Home, About, Collections, Contacts, Account icon, Cart icon) |
 | Hero | Full-width banner with brand tagline and a call-to-action button |
-| About | Short brand description / mission statement |
+| About | Short brand description statement |
+| Our Techniques | Description of how accessories are made |
 | Collections | Grid of product category cards (bracelets, anklets, etc.) |
 | Footer | Repeated nav links + social media links + copyright |
 
