@@ -22,6 +22,21 @@ nav ul{
     list-style-type: none;
 }
 
+video{
+    width: 560px;
+}
+
+.prices-table th, td {
+    border: 1px solid #6B21A8;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.prices-table th {
+    background-color: #6b21a8bb;
+    color: #FAF5FF;
+}
+
 /*
 Primary #6B21A8 (deep purple)
 Accent #F5C518 (golden yellow)
