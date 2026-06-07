@@ -37,6 +37,17 @@ video{
     color: #FAF5FF;
 }
 
+label {
+    display: inline-block;
+    width: 80px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 600px;
+    resize: vertical;
+}
+
 /*
 Primary #6B21A8 (deep purple)
 Accent #F5C518 (golden yellow)
