@@ -2,6 +2,17 @@ body{
     background-color: #FAF5FF;
 }
 
+#hero{
+    background-image: url('/assets/Tangled_friendships_banner.png');
+    background-size: contain;
+    background-position: center;
+}
+
+#hero p{
+    text-align: right;
+    color: #1A0033;
+}
+
 .logo{
     width: 300px;
     border-radius: 150px;
@@ -11,9 +22,35 @@ nav ul{
     list-style-type: none;
 }
 
+video{
+    width: 560px;
+}
+
+.prices-table th, td {
+    border: 1px solid #6B21A8;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.prices-table th {
+    background-color: #6b21a8bb;
+    color: #FAF5FF;
+}
+
+label {
+    display: inline-block;
+    width: 80px;
+}
+
+textarea {
+    width: 100%;
+    max-width: 600px;
+    resize: vertical;
+}
+
 /*
 Primary #6B21A8 (deep purple)
 Accent #F5C518 (golden yellow)
 Background #FAF5FF (soft lavender white)
-Text#1A0033 (near black purple)
+Text #1A0033 (near black purple)
 */
