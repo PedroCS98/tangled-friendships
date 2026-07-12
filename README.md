@@ -2,69 +2,70 @@
 
 > Handmade bracelets and accessories — *Where knots become bonds.*
 
----
-
-## Phase I — HTML Foundation
-
-### Goal
-Build a complete, semantic, and accessible HTML base for the website. No styling focus, no JavaScript. A solid, well-structured HTML foundation to build on in future phases.
+GitHub: https://github.com/PedroCS98/tangled-friendships
 
 ---
 
-### Sections Built
+## Phase I — HTML Foundation ✅ Complete
 
-| Section | Description |
-|---|---|
-| Header | Logo + main navigation |
-| Hero | Brand slogan, tagline and location info |
-| About Us | Brand story and macramé description |
-| Our Techniques | Kumihimo and obijime articles, embedded video and pricing table |
-| Collections |
-| FAQ |
-| Contacts | Contact form with name, email and message fields |
-| Footer | Address, social links and copyright |
+Single-page semantic HTML — header, hero, about, techniques (video + pricing table), collections, FAQ, contact form, footer.
 
 ---
 
-### Requirements Completed
+## Phase II — Multi-Page Site + CSS Design System 🔄 In Progress
 
-- [x] HTML5 document structure — `<!DOCTYPE html>`, `<html>`, `<head>`, `<body>`
-- [x] Relevant `<title>` and meta tags — charset, viewport, description
-- [x] Header with logo and navigation menu
-- [x] Semantic main content — `<main>`, `<section>`, `<article>`, `<aside>`
-- [x] Images — logo and product placeholder cards with `alt` attributes
-- [x] Multimedia — local `.mp4` video embedded with `<video>` and `<source>`
-- [x] Lists — `<ul>` and `<ol>` in the FAQ section
-- [x] Table — kumihimo and obijime sizing and pricing table
-- [x] Contact form — `<form>`, `<input>`, `<textarea>`, `<button>` with labels
-- [x] Footer — address, social media links, copyright
-- [x] Semantics and accessibility — `alt`, `aria-label`, `title`, `lang`, `<address>`, `<caption>`
-
----
+**Branch:** `PhaseII/multipage-css`
 
 ### File Structure
 
 ```
 tangled-friendships/
 ├── index.html
+├── pages/
+│   ├── about.html
+│   ├── techniques.html
+│   ├── collections.html
+│   ├── contact.html
+│   ├── gallery.html
+│   └── builder.html
 ├── css/
 │   └── style.css
-├── assets/
-│   ├── tangled_friendships_logo.jpeg
-│   ├── Tangled_friendships_banner.png
-│   └── Kumihimo - The Lost Japanese Art of Braid-Making.mp4
-└── README.md
+└── assets/
 ```
 
+### Design System
+
+| Token | Value |
+|---|---|
+| `--color-primary` | `#7B3FAE` (purple) |
+| `--color-accent` | `#F5C842` (yellow) |
+| `--color-bg` | `#FEF8D5` (warm light yellow) |
+| `--color-text` | `#1A0033` (near-black purple) |
+| `--font-heading` | Caveat — pending final client approval |
+| `--font-body` | DM Sans |
+
+### Steps
+
+- [x] Step 1 — Git setup
+- [x] Step 2 — Page shells
+- [x] Step 3 — Navigation linking
+- [ ] Step 4 — CSS design system
+- [ ] Step 5 — Header and footer components (burger menu)
+- [ ] Step 6 — Page layouts and content
+- [ ] Step 7 — Responsiveness and accessibility
+- [ ] Step 8 — Animations and polish
+- [ ] Step 9 — PR and submission
+
+### Icons needed (pending designer delivery)
+
+Navigation: hamburger, close, account, cart
+Collections: filter, chevron right, plus
+Contact/footer: location pin, mail, Instagram, Pinterest, Vinted ⚠️ needs custom icon
+
 ---
 
-### Notes
+## Notes
 
-- The `.mp4` video is a temporary placeholder for the school submission, credited to the YouTube channel ROANOKE. It will be replaced with original or royalty-free content before the site goes live.
-- Product images in the Collections section are placeholders pending real photography.
-- Account and Cart nav items are text placeholders — icons will be added in Phase II.
-- GitHub repository: https://github.com/PedroCS98/tangled-friendships
-
----
-
-*Phase II will focus on CSS styling — layout, colour palette, typography and responsiveness.*
+- Background colour pending final decision: `#FEF8D5` (clients) vs `#FAF5FF` (Pedro)
+- Mascot illustrations (fox + panda) pending designer delivery
+- `.mp4` video is a placeholder credited to ROANOKE — replace before going live
