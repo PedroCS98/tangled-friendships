@@ -1,5 +1,49 @@
-body{
-    background-color: #FAF5FF;
+/* === IMPORTS === */
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=DM+Sans:wght@400;500&display=swap');
+
+/* === BASE ===*/
+
+:root{
+    --color-primary: #7B3FAE;
+    --color-accent: #F5C842;
+    --color-bg: #FEF8D5;
+    --color-text: #1A0033;
+    --color-text-muted: #6B4F8A;
+    --color-surface: #FFFFFF;
+
+    --font-heading: 'Caveat', cursive;
+    --font-body: 'DM Sans', sans-serif;
+
+    --size-xs: 0.5rem;
+    --size-s: 1rem;
+    --size-m: 1.5rem;
+    --size-l: 2rem;
+    --size-xl: 3rem;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    line-height: 1.2;
+}
+
+a{
+    color: var(--color-primary);
+    text-decoration: none;
 }
 
 #hero{
