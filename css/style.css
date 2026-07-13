@@ -46,6 +46,43 @@ a{
     text-decoration: none;
 }
 
+/* === HEADER ===*/
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--size-xs);
+    background-color: var(--color-bg);
+    border-bottom: 1.5px solid var(--color-primary);
+}
+
+.logo{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.main-nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: var(--size-s);
+}
+
+.main-nav ul a{
+    color: var(--color-text);
+    font-weight: 600;
+}
+
+.nav-icons ul{
+    list-style-type: none;
+    display: flex;
+    gap: var(--size-xs);
+}
+
+.main-nav ul a:hover, .nav-icons ul a{
+    color: var(--color-primary);
+}
+
 #hero{
     background-image: url('/assets/Tangled_friendships_banner.png');
     background-size: contain;
@@ -57,28 +94,19 @@ a{
     color: #1A0033;
 }
 
-.logo{
-    width: 300px;
-    border-radius: 150px;
-}
-
-nav ul{
-    list-style-type: none;
-}
-
 video{
     width: 560px;
 }
 
 .prices-table th, td {
-    border: 1px solid #6B21A8;
+    border: 1px solid var(--color-primary);
     padding: 8px 12px;
     text-align: center;
 }
 
 .prices-table th {
-    background-color: #6b21a8bb;
-    color: #FAF5FF;
+    background-color: var(--color-primary);
+    color: var(--color-bg);
 }
 
 label {
@@ -92,9 +120,40 @@ textarea {
     resize: vertical;
 }
 
-/*
-Primary #6B21A8 (deep purple)
-Accent #F5C518 (golden yellow)
-Background #FAF5FF (soft lavender white)
-Text #1A0033 (near black purple)
-*/
+/* === FOOTER === */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--size-s) var(--size-m);
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+    gap: var(--size-xs);
+    border-top: 1.5px solid var(--color-text);
+}
+
+footer address{
+    display: flex;
+    /*flex-direction: column;*/
+    align-items: center;
+}
+
+.footer-nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: var(--size-s);
+}
+
+.footer-nav ul a{
+    color: var(--color-bg);
+}
+
+.footer-nav ul a:hover{
+    color: var(--color-accent);
+}
+
+.copyright {
+    font-size: 0.85rem;
+}
