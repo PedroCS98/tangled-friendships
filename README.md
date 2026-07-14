@@ -49,7 +49,7 @@ tangled-friendships/
 - [x] Step 1 — Git setup
 - [x] Step 2 — Page shells
 - [x] Step 3 — Navigation linking
-- [ ] Step 4 — CSS design system
+- [x] Step 4 — CSS design system
 - [ ] Step 5 — Header and footer components (burger menu)
 - [ ] Step 6 — Page layouts and content
 - [ ] Step 7 — Responsiveness and accessibility
