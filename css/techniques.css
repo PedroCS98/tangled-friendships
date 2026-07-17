@@ -1,0 +1,14 @@
+video{
+    width: 560px;
+}
+
+.prices-table th, td {
+    border: 1px solid var(--color-primary);
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.prices-table th {
+    background-color: var(--color-primary);
+    color: var(--color-bg);
+}
