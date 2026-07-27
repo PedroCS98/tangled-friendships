@@ -115,7 +115,7 @@ header{
 /* === HERO === */
 
 #hero{
-    background-image: url('../assets/Tangled_friendships_banner.png');
+    background-image: url('../assets/Tangled_friendships_banner3.png');
     background-size: cover;
     background-position: center;
     min-height: 70vh;
@@ -124,6 +124,16 @@ header{
     align-items: center;
     justify-content: center;
     gap: var(--size-s);
+    mask-image: linear-gradient(to bottom, 
+    black 75%, 
+    rgba(0,0,0,0.9) 88%, 
+    rgba(0,0,0,0.5) 95%, 
+    transparent 100%);
+    -webkit-mask-image: linear-gradient(to bottom, 
+    black 75%, 
+    rgba(0,0,0,0.9) 88%, 
+    rgba(0,0,0,0.5) 95%, 
+    transparent 100%);
 }
 
 #hero h1,
