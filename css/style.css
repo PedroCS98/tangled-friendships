@@ -99,6 +99,7 @@ header{
 
 .main-nav ul a{
     color: var(--color-text);
+    font-size: var(--size-m);
     font-weight: 600;
 }
 
