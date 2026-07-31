@@ -1,0 +1,39 @@
+/* === GALLERY === */
+
+.gallery-intro {
+    text-align: center;
+    padding: var(--size-l) var(--size-m);
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.gallery-intro p {
+    font-size: 1.1rem;
+    margin-top: var(--size-s);
+}
+
+.gallery-quote {
+    text-align: center;
+    padding: var(--size-xl) var(--size-m);
+}
+
+.gallery-quote p {
+    font-family: var(--font-heading);
+    font-size: 2.5rem;
+    color: var(--color-primary);
+}
+
+.gallery-cta {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-s);
+    text-align: center;
+    padding: var(--size-l) var(--size-m);
+    align-items: center;
+    margin: 0 auto;
+}
+
+.gallery-cta p {
+    font-size: 1.1rem;
+}
