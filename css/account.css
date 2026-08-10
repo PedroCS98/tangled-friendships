@@ -1,0 +1,56 @@
+/* === ACCOUNT === */
+
+.account-intro {
+    text-align: center;
+    padding: var(--size-l) var(--size-m) 0;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.account-intro p {
+    margin-top: var(--size-s);
+}
+
+.account-form {
+    margin: var(--size-l) auto;
+    background-color: var(--color-surface);
+    border-radius: 15px;
+    padding: var(--size-l);
+    width: 100%;
+    max-width: 420px;
+}
+
+.account-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.account-form label {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+
+.account-form input {
+    padding: var(--size-xs);
+    border: 1.5px solid var(--color-primary);
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 1rem;
+    margin-bottom: var(--size-s);
+}
+
+.account-form input:focus {
+    outline: none;
+    border-color: var(--color-accent);
+}
+
+.account-form button {
+    margin-top: var(--size-s);
+    font-size: 0.95rem;
+}
+
+.account-prompt {
+    text-align: center;
+    margin-top: var(--size-m);
+}
