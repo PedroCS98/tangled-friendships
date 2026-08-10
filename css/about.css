@@ -1,0 +1,129 @@
+/* === ABOUT === */
+
+section h3{
+    color: var(--color-primary);
+    margin-bottom: var(--size-m);
+}
+
+/* === INTRO === */
+
+.about-intro {
+    text-align: center;
+    padding: var(--size-l) var(--size-m);
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.about-intro p {
+    font-size: 1.1rem;
+    margin-top: var(--size-s);
+}
+
+.about-story {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: var(--size-l) var(--size-m);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: var(--size-l);
+    align-items: center;
+}
+
+.about-story article p {
+    margin-bottom: var(--size-s);
+    text-align: justify;
+}
+
+.about-note {
+    background-color: var(--color-surface);
+    border-left: 4px solid var(--color-accent);
+    padding: var(--size-m);
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    color: var(--color-primary);
+}
+
+/* === VALUES === */
+
+.about-values {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: var(--size-l) var(--size-m);
+    text-align: center;
+}
+
+.about-values h3 {
+    text-align: right;
+}
+
+.value-card {
+    background-color: var(--color-surface);
+    border-radius: 12px;
+    padding: var(--size-l);
+    text-align: left;
+    margin-bottom: var(--size-m);
+}
+
+.value-card:nth-child(odd) {
+    text-align: right;
+}
+
+.value-card h4 {
+    font-size: 1.35rem;
+    color: var(--color-primary);
+    margin-bottom: var(--size-xs);
+}
+
+.value-card ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-xs);
+    margin-top: var(--size-xs);
+}
+
+/* === TEAM === */
+
+.about-team {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: var(--size-l) var(--size-m);
+    text-align: center;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--size-l);
+}
+
+.team-card {
+    background-color: var(--color-surface);
+    border-radius: 12px;
+    padding: var(--size-m);
+}
+
+.team-card img {
+    width: 100%;
+    max-width: 260px;
+    margin: 0 auto var(--size-s);
+}
+
+.team-card h4 {
+    font-size: 1.5rem;
+    color: var(--color-primary);
+    margin-bottom: var(--size-xs);
+}
+
+.about-cta {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-s);
+    text-align: center;
+    padding: var(--size-l) var(--size-m);
+    align-items: center;
+}
+
+.about-cta p {
+    font-size: 1.1rem;
+}
