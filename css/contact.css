@@ -45,8 +45,7 @@
 .contact-grid-card form button {
     margin-top: auto; /* ask client if needed */
     margin-bottom: var(--size-xl);
-    cursor: pointer;
-    border: none;
+    font-size: 1rem;
     padding: 0.8rem 1.75rem;
 }
 

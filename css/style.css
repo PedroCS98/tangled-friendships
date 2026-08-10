@@ -69,6 +69,7 @@ h4 {
 a{
     color: var(--color-primary);
     text-decoration: none;
+    font-weight: 500;
 }
 
 a:hover {
@@ -76,12 +77,14 @@ a:hover {
 }
 
 .cta-button {
+    cursor: pointer;
     display: inline-block;
     background-color: var(--color-primary);
     color: var(--color-bg);
     padding: 0.7rem 1.75rem;
     border-radius: 50px;
     font-weight: 500;
+    border: none;
     transition: background-color 0.3s ease;
 }
 
@@ -177,7 +180,6 @@ header{
     color: var(--color-bg);
     padding: 0.6rem 1.5rem;
     border-radius: 999px;
-    font-weight: 500;
     transition: background-color 0.2s ease;
 }
 
@@ -236,7 +238,6 @@ header{
 
 .product-card a {
     margin-top: auto;
-    font-weight: 500;
 }
 
 /* === TECHNIQUES TEASER === */
