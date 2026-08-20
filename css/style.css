@@ -124,11 +124,16 @@ header{
 .nav-icons ul{
     list-style-type: none;
     display: flex;
-    gap: var(--size-xs);
+    gap: var(--size-m);
+    margin-right: var(--size-s);
 }
 
 .main-nav ul a:hover, .nav-icons ul a{
     color: var(--color-primary);
+}
+
+.nav-icons i {
+    font-size: 1.8rem;
 }
 
 /* === HERO === */
@@ -312,7 +317,16 @@ footer{
 footer address{
     display: flex;
     /*flex-direction: column;*/
+    gap: var(--size-m);
     align-items: center;
+}
+
+footer address a {
+    color: var(--color-bg);
+}
+
+footer address i {
+    font-size: 1.1rem;
 }
 
 .footer-nav ul{
@@ -327,6 +341,10 @@ footer address{
 
 .footer-nav ul a:hover{
     color: var(--color-accent);
+}
+
+.footer-nav i {
+    font-size: 1.4rem;
 }
 
 .copyright {
