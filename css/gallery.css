@@ -37,3 +37,49 @@
 .gallery-cta p {
     font-size: 1.1rem;
 }
+
+/* === MOSAIC === */
+
+.gallery-mosaic {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: var(--size-l) var(--size-m);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 145px; /* for square mosaics */
+    gap: var(--size-s);
+}
+
+.gallery-mosaic figure {
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+.gallery-mosaic img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.gallery-mosaic figure:hover img {
+    transform: scale(1.08);
+}
+
+.mosaic-large {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.mosaic-square {
+    grid-row: span 2;
+}
+
+.mosaic-tall {
+    grid-row: span 4;
+}
+
+.mosaic-small {
+    grid-row: span 1;
+}
