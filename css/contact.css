@@ -73,9 +73,14 @@
     gap: var(--size-m);
 }
 
-.contact-right p {
+.contact-details dt {
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.contact-details dd {
+    margin-left: 0;
     margin-bottom: var(--size-s);
-    line-height: 1.2;
 }
 
 .contact-socials {
