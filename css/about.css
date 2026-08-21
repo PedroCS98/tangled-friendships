@@ -127,3 +127,25 @@ section h3{
 .about-cta p {
     font-size: 1.1rem;
 }
+
+@media (max-width: 768px){
+    .about-story article p {
+        text-align: left;
+    }
+
+    .about-values h3,
+    .value-card:nth-child(odd) {
+        text-align: left;
+    }
+}
+
+@media (max-width: 480px) {
+    .about-story {
+        grid-template-columns: 1fr;
+        gap: var(--size-m);
+    }
+
+    .team-grid {
+        grid-template-columns: 1fr;
+    }
+}

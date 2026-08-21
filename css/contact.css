@@ -43,7 +43,7 @@
 }
 
 .contact-grid-card form button {
-    margin-top: auto; /* ask client if needed */
+    margin-top: auto;
     margin-bottom: var(--size-xl);
     font-size: 1rem;
     padding: 0.8rem 1.75rem;
@@ -103,4 +103,51 @@
     max-height: 40vh;
     border: none;
     border-radius: 12px;
+}
+
+@media (max-width: 768px) {
+    .contact-box > h2,
+    .contact-box > p,
+    .contact-grid {
+        max-width: 40ch;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-grid-card form {
+        height: auto;
+    }
+
+    .contact-grid-card form button {
+        margin-top: var(--size-s);
+        margin-bottom: 0;
+    }
+    
+    .contact-map-card {
+        min-height: auto;
+    }
+    
+    .contact-socials {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: var(--size-xs);
+    }
+    .contact-map-card iframe {
+        max-height: none;
+        min-height: 200px;
+        width: 100%;
+    }    
+}
+@media (max-width: 480px){
+    .contact-box > h2,
+    .contact-box > p,
+    .contact-grid {
+        max-width: 25ch;
+    }
+
+    .contact-grid-card{
+        padding: var(--size-s);
+    }
 }

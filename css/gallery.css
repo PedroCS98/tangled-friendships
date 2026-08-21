@@ -83,3 +83,15 @@
 .mosaic-small {
     grid-row: span 1;
 }
+
+@media (max-width: 768px) {
+    .gallery-mosaic {
+        grid-auto-rows: 90px;
+    }
+}
+
+@media (max-width: 480px) {
+    .gallery-mosaic {
+        grid-auto-rows: 60px;
+    }
+}

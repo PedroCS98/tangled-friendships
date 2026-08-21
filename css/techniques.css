@@ -162,3 +162,43 @@
     background-color: var(--color-primary);
     color: var(--color-bg);
 }
+
+@media (max-width: 768px) {
+    .our-techniques{
+        max-width: 90vw;
+    }
+
+    .technique-article,
+    .technique-article:nth-child(odd) {
+        flex-direction: column;
+        text-align: left;
+    }
+
+    .technique-article img {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 1;
+    }
+
+    .technique-text p {
+        text-align: left;
+    }
+
+    .technique-video video {
+        box-sizing: border-box;
+    }
+
+    .prices-table table{
+        max-width: 85vw;
+    }
+
+    .prices-table th,
+    .prices-table td {
+        padding: 6px 4px;
+        font-size: 0.85rem;
+    }
+
+    .prices-table caption {
+        font-size: 1.4rem;
+    }
+}

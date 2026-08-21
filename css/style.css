@@ -136,15 +136,15 @@ header{
     font-weight: 600;
 }
 
+.main-nav ul a:hover, .nav-icons ul a{
+    color: var(--color-primary);
+}
+
 .nav-icons ul{
     list-style-type: none;
     display: flex;
     gap: var(--size-m);
     margin-right: var(--size-s);
-}
-
-.main-nav ul a:hover, .nav-icons ul a{
-    color: var(--color-primary);
 }
 
 .nav-icons i {
@@ -354,6 +354,7 @@ footer address i {
     
     .nav-icons ul {
         justify-content: flex-end;
+        gap: var(--size-s);
     }
     
     .nav-toggle-button {
@@ -430,6 +431,47 @@ footer address i {
     .main-nav a {
         display: block;
         padding: var(--size-xs) var(--size-s);
+    }
+
+    #hero h1 {
+        font-size: 3rem;
+    }
+
+    .featured-grid {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 700px;
+    }
+
+    .faq-grid {
+        grid-template-columns: 1fr;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .nav-icons ul {
+        gap: var(--size-xs);
+        margin-right: 0.35rem;
+    }
+
+    .featured-grid {
+        grid-template-columns: 1fr;
+        max-width: 432px;
+    }
+
+    #hero h1 {
+        text-align: center;
+        font-size: 2.4rem;
+    }
+
+    #hero p {
+        font-size: 1.05rem;
+    }
+
+    footer address {
+        flex-direction: column;
+        gap: var(--size-xs);
+        text-align: center;
     }
 }
 
