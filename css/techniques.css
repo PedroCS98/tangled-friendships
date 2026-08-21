@@ -109,7 +109,7 @@
 
 .step-num:hover{
     background-color: var(--color-accent);
-    color: var(--text);
+    color: var(--color-text);
 }
 
 .ordering-list .order-steps li:not(:last-child)::before {
