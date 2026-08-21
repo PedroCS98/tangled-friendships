@@ -70,6 +70,9 @@ web_modules/
 .env.*
 !.env.example
 
+# Windows alternate data streams (WSL)
+*:Zone.Identifier
+
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 .parcel-cache
