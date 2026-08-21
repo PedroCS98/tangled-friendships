@@ -1,0 +1,59 @@
+/* === THREAD COLOUR DOTS === */
+
+.dot {
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    display: inline-block;
+    border: 1px solid rgba(26, 0, 51, 0.2);
+}
+
+.product-dots {
+  position: absolute;
+  right: var(--size-s);
+  bottom: var(--size-s);
+  display: flex;
+  gap: 0.3rem;
+}
+
+/* --- Solid threads (15) --- */
+
+.dot-black { background: #2A2A2A; }
+.dot-white { background: #E7E7E7; }
+.dot-beige { background: #F2EDD2; }
+.dot-purple { background: #A860D9; }
+.dot-red { background: #B22929; }
+.dot-yellow { background: #F0D05F; }
+.dot-green { background: #1EBC75; }
+.dot-dark-green { background: #09493A; }
+.dot-pink { background: #FB4B82; }
+.dot-orange { background: #F36B33; }
+.dot-blue { background: #0691BB; }
+.dot-dark-blue { background: #28229D; }
+.dot-light-purple { background: #CCAFE8; }  /* lilás */
+.dot-mint-green { background: #BADFA0; }
+.dot-dark-red { background: #8F1927; }
+
+/* --- Multicolour threads (12) --- */
+
+.dot-yellow-purple { background: conic-gradient(#F0D05F 0 33.33%, #A56CA9 0 66.66%, #943C76 0); }
+.dot-blues { background: conic-gradient(#E2FFFB 0 33.33%, #93D2F3 0 66.66%, #41A1D4 0); }  /* azuis claros */
+.dot-blue-purple { background: conic-gradient(#6FD5FB 0 33.33%, #324290 0 66.66%, #7263D0 0); }
+.dot-yellow-red-blue { background: conic-gradient(#F1F393 0 33.33%, #BD334E 0 66.66%, #4061F5 0); }
+.dot-white-pink-blue { background: conic-gradient(#FBFEFF 0 33.33%, #6CD9F6 0 66.66%, #CF4F6F 0); }  /* branco, rosa e azul */
+.dot-pastels { background: conic-gradient(#EB88A6 0 33.33%, #F0F2D8 0 66.66%, #79CEDD 0); }  /* rosa claro, amarelo claro e azul claro */
+.dot-red-yellow-green { background: conic-gradient(#B22929 0 33.33%, #F3EF93 0 66.66%, #416323 0); }
+.dot-green-yellow { background: conic-gradient(#87EA6E 0 33.33%, #D6E978 0 66.66%, #FBE05F 0); }
+.dot-yellow-red { background: conic-gradient(#FBE05F 0 33.33%, #D33333 0 66.66%, #8F1927 0); }
+.dot-green-pink { background: conic-gradient(#CCE978 0 33.33%, #EEC0AA 0 66.66%, #EB88A6 0); }
+.dot-white-orange { background: conic-gradient(#FBFEFF 0 33.33%, #FFB98D 0 66.66%, #F37E33 0); }
+.dot-pink-purple { background: conic-gradient(#FF92CD 0 33.33%, #FB4B82 0 66.66%, #943C76 0); }
+
+
+/* --- Pending from client (3) ---
+   Hex values held by Ana, not yet supplied:
+     castanho e amarelo  (brown and yellow)  -> .dot-brown-yellow
+     roxos               (purples)           -> .dot-purples
+     rosa claro          (light pink)        -> .dot-light-pink
+   Note: 'rosa claro' is a separate thread from Light Purple / lilás.
+*/

@@ -11,6 +11,7 @@
             referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/thread-dots.css">
     <link rel="icon" type="image/jpeg" href="../assets/tangled_friendships_logo_v2.jpeg">
 </head>
 <body>
@@ -42,17 +43,363 @@
             <p>Fifteen designs, made to order in the colours you choose. Pick a style, pick your threads, and we'll make it for you.</p>
         </section>
 
-        <section class="products-filters" aria-label="Product filters">
-            <div class="filter-group">
-                <h3>Type</h3>
-                <ul class="filter-pills">
-                    <li><button class="pill pill-active" type="button">All</button></li>
-                    <li><button class="pill" type="button">Basics</button></li>
-                    <li><button class="pill" type="button">Patterns</button></li>
-                    <li><button class="pill" type="button">Shapes</button></li>
-                    <li><button class="pill" type="button">Signature</button></li>
-                </ul>
-            </div>
+        <section class="products-layout">
+            <input type="checkbox" id="filter-toggle" class="filter-toggle-input">
+            <label for="filter-toggle" class="filter-toggle-btn">
+                <i class="fa-solid fa-sliders" aria-hidden="true"></i> Filters
+            </label>
+
+            <aside class="products-filters" aria-label="Product filters">
+                <div class="filter-group">
+                    <h3>Type</h3>
+                    <ul class="filter-pills">
+                        <li><button class="pill pill-active" type="button">All</button></li>
+                        <li><button class="pill" type="button">Basics</button></li>
+                        <li><button class="pill" type="button">Patterns</button></li>
+                        <li><button class="pill" type="button">Shapes</button></li>
+                        <li><button class="pill" type="button">Signature</button></li>
+                    </ul>
+                </div>
+    
+                <div class="filter-group">
+                    <h3>Colour</h3>
+                    <ul class="filter-pills">
+                        <li><button class="pill" type="button">Red</button></li>
+                        <li><button class="pill" type="button">Yellow</button></li>
+                        <li><button class="pill" type="button">Mint</button></li>
+                        <li><button class="pill" type="button">Lilac</button></li>
+                        <li><button class="pill" type="button">White</button></li>
+                        <li><button class="pill" type="button">Blue</button></li>
+                        <li><button class="pill" type="button">Pink</button></li>
+                        <li><button class="pill" type="button">Green</button></li>
+                        <li><button class="pill" type="button">Orange</button></li>
+                        <li><button class="pill" type="button">Purple</button></li>
+                        <li><button class="pill" type="button">Brown</button></li>
+                        <li><button class="pill" type="button">Black</button></li>
+                    </ul>
+                    <label class="color-filter-toggle">
+                        <input type="checkbox" name="exact-colours">
+                        Only these colours
+                    </label>
+                </div>
+    
+                <div class="filter-group">
+                    <h3>Threads</h3>
+                    <ul class="filter-pills">
+                        <li><button class="pill" type="button">4</button></li>
+                        <li><button class="pill" type="button">6</button></li>
+                        <li><button class="pill" type="button">9</button></li>
+                        <li><button class="pill" type="button">12</button></li>
+                        <li><button class="pill" type="button">14</button></li>
+                    </ul>
+                </div>
+    
+                <div class="filter-group">
+                    <h3>Other</h3>
+                    <ul class="filter-pills">
+                        <li><button class="pill" type="button">Bundles</button></li>
+                        <li><button class="pill" type="button">Collections</button></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <section class="products-grid" aria-label="All bracelets">
+                <article class="product-card is-large">
+                    <img src="../assets/gallery/gallery-signature-tangled-friendships.jpg" alt="Tangled Friendships bracelet in solid purple and yellow threads" loading="lazy">
+                    <div class="product-info">
+                        <h3>Tangled Friendships</h3>
+                        <p class="product-meta">14 threads &middot; &euro;10.00</p>
+                        <div class="product-dots">
+                            <span class="dot dot-purple"></span>
+                            <span class="dot dot-yellow"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/lead-6-purple-yellow-multi.jpg" alt="Lead bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Lead</h3>
+                        <p class="product-meta">6 threads &middot; &euro;2.20</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/thin-4-purple-yellow-multi.jpg" alt="Thin bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Thin</h3>
+                        <p class="product-meta">4 threads &middot; &euro;2.00</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/weave-6-purple-yellow-multi.jpg" alt="Weave bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Weave</h3>
+                        <p class="product-meta">6 threads &middot; &euro;2.20</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/trail-6-purple-yellow-multi.jpg" alt="Trail bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Trail</h3>
+                        <p class="product-meta">6 threads &middot; &euro;2.20</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/zipper-6-purple-yellow-multi.jpg" alt="Zipper bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Zipper</h3>
+                        <p class="product-meta">6 threads &middot; &euro;2.20</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/twist-6-purple-yellow-multi.jpg" alt="Twist bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Twist</h3>
+                        <p class="product-meta">6 threads &middot; &euro;2.20</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/dna-6-purple-yellow-multi.jpg" alt="DNA bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>DNA</h3>
+                        <p class="product-meta">6 threads &middot; &euro;2.20</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/anchor-6-purple-yellow-multi.jpg" alt="Anchor bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Anchor</h3>
+                        <p class="product-meta">6 threads &middot; &euro;2.20</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/coil-6-purple-yellow-multi.jpg" alt="Coil bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Coil</h3>
+                        <p class="product-meta">6 threads &middot; &euro;2.20</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card is-wide">
+                    <img src="../assets/products/slash-6-purple-yellow-multi-wide.jpg" alt="Slash bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Slash</h3>
+                        <p class="product-meta">6 threads &middot; &euro;3.00</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/lead-12-purple-yellow-multi.jpg" alt="Lead bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Lead</h3>
+                        <p class="product-meta">12 threads &middot; &euro;3.40</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/weave-12-purple-yellow-multi.jpg" alt="Weave bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Weave</h3>
+                        <p class="product-meta">12 threads &middot; &euro;3.40</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/zipper-12-purple-yellow-multi.jpg" alt="Zipper bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Zipper</h3>
+                        <p class="product-meta">12 threads &middot; &euro;3.40</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/trail-12-purple-yellow-multi.jpg" alt="Trail bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Trail</h3>
+                        <p class="product-meta">12 threads &middot; &euro;3.40</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card is-wide">
+                    <img src="../assets/products/arrow-6-purple-yellow-multi-wide.jpg" alt="Arrow bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Arrow</h3>
+                        <p class="product-meta">6 threads &middot; &euro;3.20</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/bloom-6-purple-yellow-multi.jpg" alt="Bloom bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Bloom</h3>
+                        <p class="product-meta">6 threads &middot; &euro;2.50</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/bloom-12-purple-yellow-multi.jpg" alt="Bloom bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Bloom</h3>
+                        <p class="product-meta">12 threads &middot; &euro;3.80</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card is-wide">
+                    <img src="../assets/products/flipflop-6-purple-yellow-multi-wide.jpg" alt="Flip Flop bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Flip Flop</h3>
+                        <p class="product-meta">6 threads &middot; &euro;3.50</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/lead-6-purple-yellow.jpg" alt="Lead bracelet in solid purple and yellow threads" loading="lazy">
+                    <div class="product-info">
+                        <h3>Lead</h3>
+                        <p class="product-meta">6 threads &middot; &euro;2.20</p>
+                        <div class="product-dots">
+                            <span class="dot dot-purple"></span>
+                            <span class="dot dot-yellow"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/lead-9-purple-yellow.jpg" alt="Lead bracelet in solid purple and yellow threads" loading="lazy">
+                    <div class="product-info">
+                        <h3>Lead</h3>
+                        <p class="product-meta">9 threads &middot; &euro;2.80</p>
+                        <div class="product-dots">
+                            <span class="dot dot-purple"></span>
+                            <span class="dot dot-yellow"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card is-wide">
+                    <img src="../assets/products/ocean-6-purple-yellow-multi-wide.jpg" alt="Ocean bracelet in purple and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Ocean</h3>
+                        <p class="product-meta">6 threads &middot; &euro;3.50</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-purple"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/lead-12-purple-yellow.jpg" alt="Lead bracelet in solid purple and yellow threads" loading="lazy">
+                    <div class="product-info">
+                        <h3>Lead</h3>
+                        <p class="product-meta">12 threads &middot; &euro;3.40</p>
+                        <div class="product-dots">
+                            <span class="dot dot-purple"></span>
+                            <span class="dot dot-yellow"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/bloom-12-purple-yellow.jpg" alt="Bloom bracelet in solid purple and yellow threads" loading="lazy">
+                    <div class="product-info">
+                        <h3>Bloom</h3>
+                        <p class="product-meta">12 threads &middot; &euro;3.80</p>
+                        <div class="product-dots">
+                            <span class="dot dot-purple"></span>
+                            <span class="dot dot-yellow"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card is-wide">
+                    <img src="../assets/products/slash-6-blue-red-yellow-multi-wide.jpg" alt="Slash bracelet in blue, red and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Slash</h3>
+                        <p class="product-meta">6 threads &middot; &euro;3.00</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-red-blue"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/lead-12-blue-red-yellow-multi.jpg" alt="Lead bracelet in blue, red and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Lead</h3>
+                        <p class="product-meta">12 threads &middot; &euro;3.40</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-red-blue"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/bloom-12-blue-red-yellow-multi.jpg" alt="Bloom bracelet in blue, red and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Bloom</h3>
+                        <p class="product-meta">12 threads &middot; &euro;3.80</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-red-blue"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card is-wide">
+                    <img src="../assets/products/arrow-6-blue-red-yellow-multi-wide.jpg" alt="Arrow bracelet in blue, red and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Arrow</h3>
+                        <p class="product-meta">6 threads &middot; &euro;3.20</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-red-blue"></span>
+                        </div>
+                    </div>
+                </article>
+                <article class="product-card">
+                    <img src="../assets/products/coil-6-blue-red-yellow-multi.jpg" alt="Coil bracelet in blue, red and yellow multicolour thread" loading="lazy">
+                    <div class="product-info">
+                        <h3>Coil</h3>
+                        <p class="product-meta">6 threads &middot; &euro;2.20</p>
+                        <div class="product-dots">
+                            <span class="dot dot-yellow-red-blue"></span>
+                        </div>
+                    </div>
+                </article>
+            </section>
         </section>
     </main>
 
