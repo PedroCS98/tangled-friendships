@@ -16,10 +16,21 @@
     </head>
     <body>
         <header>
-            <a href="index.html">
-                <img class="logo" src="assets/tangled_friendships_logo_v2.jpeg" alt="Tangled Friendships logo">
+            <a href="index.html" class="nav-logo-link">
+                <img class="nav-logo" src="assets/misc/logo-just-text-purple.png" alt="Tangled Friendships logo">
             </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+            <label for="nav-toggle" class="nav-toggle-button" aria-label="Menu">
+                <i class="fa-solid fa-bars-staggered" aria-hidden="true"></i>
+            </label>
+
+            <label for="nav-toggle" class="nav-scrim" aria-label="Close menu"></label>
+
             <nav class="main-nav">
+                <label for="nav-toggle" class="nav-close-button" aria-label="Close menu">
+                    <i class="fa-regular fa-circle-xmark" aria-hidden="true"></i>
+                </label>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="pages/about.html">About</a></li>
@@ -29,6 +40,7 @@
                     <li><a href="pages/contact.html">Contact</a></li>
                 </ul>
             </nav>
+
             <div class="nav-icons">
                 <ul>
                     <li><a href="pages/account.html" aria-label="Account"><i class="fa-solid fa-house-user" aria-hidden="true"></i></a></li>
