@@ -5,28 +5,46 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Tangled Friendships — Where knots become bonds.">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" 
+            integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" />
         <link rel="stylesheet" href="css/style.css">
-        <link rel="icon" type="image/jpeg" href="assets/tangled_friendships_logo.jpeg">
+        <link rel="stylesheet" href="css/products.css">
+        <link rel="stylesheet" href="css/thread-dots.css">
+        <link rel="icon" type="image/jpeg" href="assets/misc/sun-purple-solid.png">
     </head>
     <body>
-        <header id="home">
-            <a href="#home">
-                <img class="logo" src="assets/tangled_friendships_logo.jpeg" alt="Tangled Friendships logo">
+        <header>
+            <a href="index.html" class="nav-logo-link">
+                <img class="nav-logo" src="assets/misc/logo-just-text-purple.png" alt="Tangled Friendships logo">
             </a>
+
+            <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+            <label for="nav-toggle" class="nav-toggle-button" aria-label="Menu">
+                <i class="fa-solid fa-bars-staggered" aria-hidden="true"></i>
+            </label>
+
+            <label for="nav-toggle" class="nav-scrim" aria-label="Close menu"></label>
+
             <nav class="main-nav">
+                <label for="nav-toggle" class="nav-close-button" aria-label="Close menu">
+                    <i class="fa-regular fa-circle-xmark" aria-hidden="true"></i>
+                </label>
                 <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#about-us">About Us</a></li>
-                    <li><a href="#our-techniques">Our Techniques</a></li>
-                    <li><a href="#collections">Collections</a></li>
-                    <li><a href="#faq">FAQ</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="pages/about.html">About</a></li>
+                    <li><a href="pages/techniques.html">Techniques</a></li>
+                    <li><a href="pages/products.html">Products</a></li>
+                    <li><a href="pages/gallery.html">Gallery</a></li>
+                    <li><a href="pages/contact.html">Contact</a></li>
                 </ul>
             </nav>
+
             <div class="nav-icons">
                 <ul>
-                    <li><a href="#" aria-label="Account"><span>Account</span></a></li>
-                    <li><a href="#" aria-label="Cart"><span>Cart</span></a></li>
+                    <li><a href="pages/account.html" aria-label="Account"><i class="fa-solid fa-house-user" aria-hidden="true"></i></a></li>
+                    <li><a href="pages/cart.html" aria-label="Cart"><i class="fa-solid fa-bag-shopping" aria-hidden="true"></i></a></li>
                 </ul>
             </div>
         </header>
@@ -35,155 +53,101 @@
             <section id="hero">
                 <h1>Where knots become bonds.</h1>
                 <p>Handmade bracelets and accessories crafted with care, connection and meaning.</p>
-                <aside class="hero-aside">
-                    <p>📍 Portugal — Shipping nationwide</p>
-                    <p><a href="#contacts">📩</a> DM for more info</p>
-                </aside>
+                <a href="pages/products.html">Shop now</a>
             </section>
-            <section id="about-us">
-                <h2>About Us</h2>
-                <article class="about-article">
-                    <h3>The Art of Macramé</h3>
-                    <p>Macramé is a millenary handmade technique that transforms simple strings and knots into art full of meaning. Each knot represents connection, union and strength. It is a reflection of the connections we build in life — intertwined, strong and unique.</p>
-                    <p>Macramé is more than a decoration: it's time, dedication and care. Each piece is handmade, loaded with craftsmanship and human value. With Macramé, each creation is different. There are infinite possibilities in styles, colours and customisations. It's an art as unique as each person.</p>
-                    <p>This is just the beginning of our journey. Follow the page and let's intertwine memories together.</p>
-                </article>
-            </section>
-
-            <section id="our-techniques">
-                <h2>Our Techniques</h2>
-                <article class="technique-article">
-                    <h3>Kumihimo</h3>
-                    <p>Kumihimo is a traditional Japanese artwork and craftwork for making braids and cords. The name literally means "gathered threads". Kumihimo braids can be used as simple and elegant hair accessories, just like a hair tie. Kumihimo cords are also used as obijime — cords that tie around the obi of a kimono. In the past, kumihimo cords were used in samurai armour too.</p>
-                </article>
-                <article class="technique-article">
-                    <h3>Obijime</h3>
-                    <p>Obijime are decorative cords traditionally worn with kimonos, tied around the obi to keep it in place and add an elegant finishing touch. At Tangled Friendships, we craft obijime using the kumihimo braiding technique, honouring the Japanese tradition with handmade quality.</p>
-                </article>
-                <article>
-                    <p>For more information about the Kumihimo braiding technique watch this video from the YouTube channel ROANOKE.</p>
-                    <video title="YouTube video about the Kumihimo technique and culture" controls>
-                        <source src="assets/Kumihimo - The Lost Japanese Art of Braid-Making.mp4" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
-                </article>
-                <p>Interested in our Kumihimo and Obijime pieces? Here are our available sizes and prices.</p>
-                <div class="prices-table">
-                    <table>
-                        <caption>Kumihimo & Obijime Prices</caption>
-                        <thead>
-                            <tr>
-                                <th>Product</th>
-                                <th>Size</th>
-                                <th>Length</th>
-                                <th>Price</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Kumihimo</td>
-                                <td>-</td>
-                                <td>~100 cm</td>
-                                <td>15€</td>
-                            </tr>
-                            <tr>
-                                <td>Obijime</td>
-                                <td>XS</td>
-                                <td>160 cm</td>
-                                <td>21€</td>
-                            </tr>
-                            <tr>
-                                <td>Obijime</td>
-                                <td>S</td>
-                                <td>170 cm</td>
-                                <td>22€</td>
-                            </tr>
-                            <tr>
-                                <td>Obijime</td>
-                                <td>M</td>
-                                <td>180 cm</td>
-                                <td>23€</td>
-                            </tr>
-                            <tr>
-                                <td>Obijime</td>
-                                <td>L</td>
-                                <td>190 cm</td>
-                                <td>24€</td>
-                            </tr>
-                            <tr>
-                                <td>Obijime</td>
-                                <td>XL</td>
-                                <td>200 cm</td>
-                                <td>25€</td>
-                            </tr>
-                        </tbody>
-                    </table>
+            
+            <section id="featured">
+                <h2>Featured</h2>
+                <div class="featured-grid">
+                    <article class="product-card">
+                        <img src="assets/gallery/gallery-signature-tangled-friendships.jpg" alt="Tangled Friendships bracelet in solid purple and yellow threads">
+                        <div class="product-info">
+                            <h3>Tangled Friendships</h3>
+                            <p class="product-meta">14 threads &middot; &euro;10.00</p>
+                            <div class="product-dots" aria-hidden="true">
+                                <span class="dot dot-purple"></span>
+                                <span class="dot dot-yellow"></span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="assets/products/slash-6-purple-yellow-multi.jpg" alt="Slash bracelet in purple and yellow multicolour thread" loading="lazy">
+                        <div class="product-info">
+                            <h3>Slash</h3>
+                            <p class="product-meta">6 threads &middot; &euro;3.00</p>
+                            <div class="product-dots">
+                                <span class="dot dot-yellow-purple"></span>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="product-card">
+                        <img src="assets/products/coil-6-purple-yellow-multi.jpg" alt="Coil bracelet in purple and yellow multicolour thread" loading="lazy">
+                        <div class="product-info">
+                            <h3>Coil</h3>
+                            <p class="product-meta">6 threads &middot; &euro;2.20</p>
+                            <div class="product-dots">
+                                <span class="dot dot-yellow-purple"></span>
+                            </div>
+                        </div>
+                    </article>
                 </div>
+                <a href="pages/products.html" class="cta-button">View all products</a>
             </section>
 
-            <section id="collections">
-                <h2>Collections</h2>
-                <article class="product-card">
-                    <h3>Product Name</h3>
-                    <img src="" alt="Product image">
-                    <p>Price: €00.00</p>
-                </article>
-                <article class="product-card">
-                    <h3>Product Name</h3>
-                    <img src="" alt="Product image">
-                    <p>Price: €00.00</p>
-                </article>
-                <article class="product-card">
-                    <h3>Product Name</h3>
-                    <img src="" alt="Product image">
-                    <p>Price: €00.00</p>
-                </article>
+            <section id="techniques-teaser">
+                <h2>The Art Behind Every Piece</h2>
+                <p>At Tangled Friendships, every piece starts with a thread and a technique passed down through generations. Our bracelets are crafted using macramé — an ancient knotting art that transforms simple cords into intricate, wearable pieces full of character and meaning.</p>
+                <p>Beyond bracelets, we also work with two traditional Japanese crafts — kumihimo, the art of braided cords, and obijime, the decorative ties worn with kimonos — bringing their elegance into everyday wear.</p>
+                <p>Each piece is made entirely by hand. No machines, no shortcuts. Just patience, skill and care woven into every knot.</p>
+                <a href="pages/techniques.html">Discover our techniques</a>
             </section>
 
             <section id="faq">
                 <h2>FAQ</h2>
-
-                <h3>Why choose Tangled Friendships</h3>
-                <ul>
-                    <li>Handmade with care</li>
-                    <li>Fully customisable colours</li>
-                    <li>Made to order</li>
-                    <li>Unique, no two pieces alike</li>
-                </ul>
-                <h3>How do I order?</h3>
-                <ul>
-                    <li>Browse the collections</li>
-                    <li>Choose your colours and size</li>
-                    <li>DM on <a href="https://www.instagram.com/tangledfriendships/" target="_blank">Instagram</a> or fill the contact form</li>
-                    <li>Receive your handmade piece</li>
-                </ul>
+                <div class="faq-grid">
+                    <article class="faq-item">
+                        <h3>Why choose Tangled Friendships</h3>
+                        <ul>
+                            <li>Handmade with care</li>
+                            <li>Fully customisable colours</li>
+                            <li>Made to order</li>
+                            <li>Unique, no two pieces alike</li>
+                        </ul>
+                    </article>
+                    <article class="faq-item">
+                        <h3>How do I order?</h3>
+                        <ul>
+                            <li>Browse the collections</li>
+                            <li>Choose your colours and size</li>
+                            <li>DM on <a href="https://www.instagram.com/tangledfriendships/" target="_blank">Instagram</a> or fill the contact form</li>
+                            <li>Receive your handmade piece</li>
+                        </ul>
+                    </article>
+                    <article class="faq-item">
+                        <h3>Caring for Your Piece</h3>
+                        <ol>
+                            <li>Keep it dry — remove before showering, swimming or washing up.</li>
+                            <li>Avoid perfumes and lotions directly on the cords.</li>
+                            <li>Store it flat, away from direct sunlight to protect the colours.</li>
+                            <li>Gently reshape the knots with your fingers if they loosen.</li>
+                            <li>Worn regularly, the cords soften and mould to your wrist over time.</li>
+                        </ol>
+                    </article>
+                </div>
             </section>
-
-            <section id="contacts">
-                <h2>Get in Touch</h2>
-                <p>Have a question or want a custom piece? We'd love to hear from you.</p>
-                <form action="#" method="post" aria-label="Contact form">
-                    <label for="contact-name">Name:</label>
-                    <input id="contact-name" type="text" name="contact-name" required>
-                    <label for="contact-email">Email:</label>
-                    <input id="contact-email" type="email" name="contact-email">
-                    <label for="contact-message">Message:</label>
-                    <textarea id="contact-message" name="contact-message" placeholder="Type your message" rows="4" required></textarea>
-                    <button type="submit">Submit your message</button>
-                </form>
-            </section>
+            
         </main>
 
         <footer>
             <address>
-                <p>📩 tangledfriendships@example.com</p>
-                <p>📍 Portugal</p>
+                <p><i class="fa-regular fa-envelope fa-fw" aria-hidden="true"></i> <a href="mailto:tangledfriendships@gmail.com">tangledfriendships@gmail.com</a></p>
+                <p><i class="fa-solid fa-location-dot fa-fw" aria-hidden="true"></i> Portugal</p>
             </address>
             <nav class="footer-nav">
                 <ul>
-                    <li><a href="#contacts">Contacts</a></li>
-                    <li><a href="https://www.instagram.com/tangledfriendships/" target="_blank">Instagram</a></li>
-                    <li><a href="https://pt.pinterest.com/tangledfriendships/?invite_code=e9d5b7c6df614b45948b327a94437139&sender=1065734836729462735" target="_blank">Pinterest</a></li>
+                    <li><a href="pages/contact.html" aria-label="Contacts"><i class="fa-regular fa-message" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com/tangledfriendships/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                    <li><a href="https://pt.pinterest.com/tangledfriendships/?invite_code=e9d5b7c6df614b45948b327a94437139&sender=1065734836729462735" target="_blank" aria-label="Pinterest"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a></li>
                     <li><a href="https://www.vinted.pt/member/291583721-tangledfriendships" target="_blank">Vinted</a></li>
                 </ul>
             </nav>

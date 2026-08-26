@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 480" role="img" width="680" height="480">
+  <title>Fox mascot representing Vera</title>
+  <desc>A flat illustrated fox in purple and yellow brand colours, above a knotted bracelet.</desc>
+  <circle cx="340" cy="240" r="180" fill="#F7EFC5"/>
+  <circle cx="340" cy="240" r="180" fill="none" stroke="#F5C842" stroke-width="3" stroke-dasharray="10 8"/>
+  <path d="M236 176 L222 96 L292 138 Z" fill="#7B3FAE"/>
+  <path d="M245 172 L238 122 L279 145 Z" fill="#F5C842"/>
+  <path d="M444 176 L458 96 L388 138 Z" fill="#7B3FAE"/>
+  <path d="M435 172 L442 122 L401 145 Z" fill="#F5C842"/>
+  <path d="M340 132 C266 132 224 186 224 244 C224 306 274 348 340 348 C406 348 456 306 456 244 C456 186 414 132 340 132 Z" fill="#8E4FC4"/>
+  <path d="M340 210 C296 210 268 246 268 282 C268 320 300 348 340 348 C380 348 412 320 412 282 C412 246 384 210 340 210 Z" fill="#FAF7FF"/>
+  <path d="M281 224 C289 216 303 216 311 224" fill="none" stroke="#1A0033" stroke-width="4" stroke-linecap="round"/>
+  <path d="M369 224 C377 216 391 216 399 224" fill="none" stroke="#1A0033" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="296" cy="240" rx="15" ry="17" fill="#1A0033"/>
+  <ellipse cx="384" cy="240" rx="15" ry="17" fill="#1A0033"/>
+  <circle cx="301" cy="234" r="5" fill="#FAF7FF"/>
+  <circle cx="389" cy="234" r="5" fill="#FAF7FF"/>
+  <path d="M328 284 C328 276 352 276 352 284 C352 294 340 302 340 302 C340 302 328 294 328 284 Z" fill="#1A0033"/>
+  <path d="M340 302 L340 312" stroke="#1A0033" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <path d="M312 312 C320 330 336 334 340 316" fill="none" stroke="#1A0033" stroke-width="4" stroke-linecap="round"/>
+  <path d="M368 312 C360 330 344 334 340 316" fill="none" stroke="#1A0033" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="272" cy="296" r="14" fill="#F5C842" opacity="0.5"/>
+  <circle cx="408" cy="296" r="14" fill="#F5C842" opacity="0.5"/>
+  <path d="M196 386 C240 356 300 372 340 396 C380 420 440 404 484 374" fill="none" stroke="#7B3FAE" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="256" cy="374" r="13" fill="#F5C842"/>
+  <circle cx="340" cy="396" r="13" fill="#F5C842"/>
+  <circle cx="424" cy="390" r="13" fill="#F5C842"/>
+</svg>

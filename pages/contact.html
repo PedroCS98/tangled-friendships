@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Contact - Tangled Friendships</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tangled Friendships — Where knots become bonds.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" 
+            integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="icon" type="image/jpeg" href="../assets/misc/sun-purple-solid.png">
+</head>
+<body>
+    <header>
+        <a href="../index.html" class="nav-logo-link">
+            <img class="nav-logo" src="../assets/misc/logo-just-text-purple.png" alt="Tangled Friendships logo">
+        </a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+        <label for="nav-toggle" class="nav-toggle-button" aria-label="Menu">
+            <i class="fa-solid fa-bars-staggered" aria-hidden="true"></i>
+        </label>
+
+        <label for="nav-toggle" class="nav-scrim" aria-label="Close menu"></label>
+
+        <nav class="main-nav">
+            <label for="nav-toggle" class="nav-close-button" aria-label="Close menu">
+                <i class="fa-regular fa-circle-xmark" aria-hidden="true"></i>
+            </label>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="techniques.html">Techniques</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="nav-icons">
+            <ul>
+                <li><a href="account.html" aria-label="Account"><i class="fa-solid fa-house-user" aria-hidden="true"></i></a></li>
+                <li><a href="cart.html" aria-label="Cart"><i class="fa-solid fa-bag-shopping" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <section class="contact-box">
+                <h2>Get in Touch</h2>
+                <p>Have a question or dreaming up a custom piece? We'd love to hear from you — every bond starts with a message.</p>
+                <section class="contact-grid">
+                    <div class="contact-grid-card">
+                        <h3>Send a message</h3>
+                        <form action="#" method="post" aria-label="Contact form">
+                            <label for="contact-name">Name:</label>
+                            <input id="contact-name" type="text" name="contact-name" required>
+                            <label for="contact-email">Email:</label>
+                            <input id="contact-email" type="email" name="contact-email">
+                            <label for="contact-about">What's this about?</label>
+                            <select id="contact-about" name="about">
+                                <option value="general-question">General question</option>
+                                <option value="custom-order">Custom order</option>
+                                <option value="order-status">Order status</option>
+                                <option value="something-else">Something else</option>
+                            </select>
+                            <label for="contact-message">Message:</label>
+                            <textarea id="contact-message" name="contact-message" placeholder="Type your message" rows="4" required></textarea>
+                            <button class="cta-button" type="submit">Send message</button>
+                        </form>
+                    </div>
+                    <div class="contact-right">
+                        <div class="contact-grid-card">
+                            <h3>Other ways to reach us</h3>
+                            <dl class="contact-details">
+                                <dt><i class="fa-regular fa-envelope fa-fw" aria-hidden="true"></i> Email</dt>
+                                <dd><a href="mailto:tangledfriendships@gmail.com">tangledfriendships@gmail.com</a></dd>
+
+                                <dt><i class="fa-solid fa-location-dot fa-fw" aria-hidden="true"></i> Location</dt>
+                                <dd>Portugal — shipping nationwide</dd>
+
+                                <dt><i class="fa-regular fa-clock fa-fw" aria-hidden="true"></i> Response time</dt>
+                                <dd>We usually reply within X hours</dd>
+                            </dl>
+                            <div class="contact-socials">
+                                <a class="cta-button" href="https://www.instagram.com/tangledfriendships/" target="_blank">Instagram</a>
+                                <a class="cta-button" href="https://pt.pinterest.com/tangledfriendships/?invite_code=e9d5b7c6df614b45948b327a94437139&sender=1065734836729462735" target="_blank">Pinterest</a>
+                                <a class="cta-button" href="https://www.vinted.pt/member/291583721-tangledfriendships" target="_blank">Vinted</a>
+                            </div>
+                        </div>
+                        <div class="contact-grid-card contact-map-card">
+                            <h3>Find us</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99579.22761772703!2d-9.242135476138023!3d38.74418441843913!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd19331a61e4f33b%3A0x400ebbde49036d0!2sLisboa!5e0!3m2!1spt-PT!2spt!4v1785352643335!5m2!1spt-PT!2spt"
+                                    allowfullscreen
+                                    loading="lazy" 
+                                    referrerpolicy="strict-origin-when-cross-origin"
+                                    title="Map showing Lisboa, Portugal">
+                            </iframe>
+                        </div>
+                    </div>
+                </section>
+            </section>
+    </main>
+
+    <footer>
+        <address>
+            <p><i class="fa-regular fa-envelope fa-fw" aria-hidden="true"></i> <a href="mailto:tangledfriendships@gmail.com">tangledfriendships@gmail.com</a></p>
+            <p><i class="fa-solid fa-location-dot fa-fw" aria-hidden="true"></i> Portugal</p>
+        </address>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="contact.html" aria-label="Contacts"><i class="fa-regular fa-message" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.instagram.com/tangledfriendships/" target="_blank" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                <li><a href="https://pt.pinterest.com/tangledfriendships/?invite_code=e9d5b7c6df614b45948b327a94437139&sender=1065734836729462735" target="_blank" aria-label="Pinterest"><i class="fa-brands fa-pinterest" aria-hidden="true"></i></a></li>
+                <li><a href="https://www.vinted.pt/member/291583721-tangledfriendships" target="_blank">Vinted</a></li>
+            </ul>
+        </nav>
+        <p class="copyright">
+            &copy; 2026 Tangled Friendships. All rights reserved.
+        </p>
+    </footer>
+</body>
+</html>
