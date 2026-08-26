@@ -80,10 +80,6 @@
     grid-row: span 4;
 }
 
-.mosaic-small {
-    grid-row: span 1;
-}
-
 @media (max-width: 768px) {
     .gallery-mosaic {
         grid-auto-rows: 90px;

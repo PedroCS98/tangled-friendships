@@ -48,12 +48,3 @@
 .dot-green-pink { background: conic-gradient(#CCE978 0 33.33%, #EEC0AA 0 66.66%, #EB88A6 0); }
 .dot-white-orange { background: conic-gradient(#FBFEFF 0 33.33%, #FFB98D 0 66.66%, #F37E33 0); }
 .dot-pink-purple { background: conic-gradient(#FF92CD 0 33.33%, #FB4B82 0 66.66%, #943C76 0); }
-
-
-/* --- Pending from client (3) ---
-   Hex values held by Ana, not yet supplied:
-     castanho e amarelo  (brown and yellow)  -> .dot-brown-yellow
-     roxos               (purples)           -> .dot-purples
-     rosa claro          (light pink)        -> .dot-light-pink
-   Note: 'rosa claro' is a separate thread from Light Purple / lilás.
-*/
